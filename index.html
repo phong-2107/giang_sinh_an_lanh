@@ -258,7 +258,8 @@
 
         // ====== UPGRADE: more than 5 images (default 12) ======
         // Add/remove files freely. If a file is missing, we will show a placeholder texture.
-        const photoFiles = Array.from({ length: 12 }, (_, i) => `./image${i + 1}.jpeg`);
+        const photoFiles = Array.from({ length: 12 }, (_, i) => `./assets/img/image${i + 1}.jpeg`);
+
 
         // textures (loaded or placeholders)
         const photoTextures = new Array(photoFiles.length).fill(null);
